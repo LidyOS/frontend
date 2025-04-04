@@ -1,0 +1,99 @@
+.popup_message{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 5;
+  overflow: hidden;
+  background-color: rgba(0, 0, 0, .5);
+}
+
+.popup {
+  visibility: hidden;
+  opacity: 0;
+  transition: visibility 1s ease-out, opacity 1s ease-out;
+}
+
+.popup_opened {
+  visibility: visible;
+  opacity: 1;
+}
+
+.popup__title {
+width: 100%;
+padding: 0 0 17px;
+margin: 0;
+font-weight: 900;
+font-size: 24px;
+line-height: 29px;
+color: #000000;
+text-align: center;  
+}
+.popup__input {
+width: 100%;
+padding: 0 0 10px;
+font-weight: 400;
+font-size: 20px;
+line-height: 22px;
+font-family: 'Times New Roman', Times, sans-serif;
+font-size: 1rem;
+color: #000000;
+border: 1px solid rgba(0, 0, 0, .2);
+}  
+
+.project-form {
+position: fixed;
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+display: flex;
+justify-content: center;
+align-items: center;
+z-index: 1;
+overflow: hidden;
+background-color: rgba(0, 0, 0, .5);
+}
+
+.popup__send-button {
+width: 100%;
+height: 30px;
+margin: 14px 0 0;
+padding: 0;
+background: #000000;
+border: none;
+border-radius: 5px;
+box-sizing: border-box;
+font-weight: 400;
+font-size: 18px;
+line-height: 22px;
+text-align: center;
+color: #FFFFFF;
+cursor: pointer;
+}
+
+.popup__send-button:hover {
+opacity: .6;
+transition: opacity .3s ease-in-out;
+}
+
+.popup__container {
+display: flex;
+position: relative;
+flex-direction: column;
+max-width: 600px;
+min-width: 350px;
+background: #FFFFFF;
+box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.15);
+border-radius: 10px;
+padding: 30px;
+box-sizing: border-box;
+}
+
+.button-send_message {
+background-color: lightgreen;
+}

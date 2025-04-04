@@ -1,0 +1,61 @@
+[
+    {
+      "name" : "Личные фото",
+      "images" : [
+        {
+            "src": "./images/personal/photo-1.jpg",
+            "alt": "Личное фото 1"
+          },
+          {
+            "src": "./images/personal/photo-2.jpg",
+            "alt": "Личное фото 2"
+          },
+          {
+            "src": "./images/personal/photo-3.jpg",
+            "alt": "Личное фото 3"
+          },
+          {
+            "src": "./images/personal/photo-4.jpg",
+            "alt": "Личное фото 4"
+          },
+          {
+            "src": "./images/personal/photo-5.jpg",
+            "alt": "Личное фото 5"
+          }
+      ]
+    },
+    {
+      "name" : "Проекты",
+      "images" : [
+          {
+            "src": "./images/personal/photo-6.jpg",
+            "alt": "Проект 1"
+          },
+          {
+            "src": "./images/personal/photo-7.jpg",
+            "alt": "Проект 2"
+          },
+          {
+            "src": "./images/personal/photo-8.jpg",
+            "alt": "Проект 3"
+          }
+      ]
+    },
+    {
+      "name" : "Мероприятия",
+      "images" : [
+          {
+            "src": "./images/personal/photo-9.jpg",
+            "alt": "Мероприятие 1"
+          },
+          {
+            "src": "./images/personal/photo-10.jpg",
+            "alt": "Мероприятие 2"
+          },
+          {
+            "src": "./images/personal/photo-11.jpg",
+            "alt": "Мероприятие 3"
+          }
+      ]
+    }
+  ]

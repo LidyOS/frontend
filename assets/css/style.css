@@ -1,0 +1,9 @@
+/* Import all CSS files */
+@import 'base.css';
+@import 'layout.css';
+@import 'components.css';
+@import 'themes.css';
+@import 'responsive.css';
+@import 'animations.css';
+@import 'gallery.css';
+@import 'popup.css';

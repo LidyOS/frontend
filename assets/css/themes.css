@@ -1,0 +1,109 @@
+.body {
+}
+
+.body_theme_dark {
+  background: var(--smoky-black)
+}
+
+.body_theme_light {
+  background: var(--white-2)
+}
+
+.sidebar_theme_dark {
+  background: var(--eerie-black-2);
+}
+
+.sidebar_theme_light {
+  background: var(--text-gradient-yellow);
+}
+
+.avatar-box_dark {
+  background: var(--bg-gradient-onyx);
+}
+
+.avatar-box_light {
+  background: var(--bg-gradient-onyx);
+}
+
+.info_content-dark_mode {
+  color: var(--white-2);
+}
+
+.info_content-light_mode {
+  color: var(--bg-gradient-onyx);
+}
+
+.h_theme_dark {
+  color: var(--white-2);
+}
+
+.h_theme_light {
+  color: var(--bg-gradient-onyx);
+}
+
+.h_blocked_color {
+  color: var(--white-2)
+}
+
+.about-text_theme_dark {
+  color: var(--light-gray) !important;
+}
+
+.about-text_theme_light {
+  color: var(--bg-gradient-onyx);
+}
+
+.tt_dark {
+  color: var(--light-gray);
+}
+
+.tt_light {
+  color: var(--border-gradient-onyx);
+}
+
+.cl_dark {
+
+}
+
+.cl_light {
+  color: black;
+}
+
+.fi_dark {
+  color: var(--white-2);
+}
+
+.fi_light {
+  color: var(--border-gradient-onyx);
+}
+
+.button-contact_theme_light {
+  background: #E1BE6E;
+  color: black;
+}
+
+.button-contact_theme_dark {
+  background: black;
+  color: rgb(193, 193, 193);
+}
+
+.button-change-theme {
+  width: 60px;
+  height: 30px;
+  z-index: 5;
+  right: 20px;
+  top: 20px;
+  border: none;
+  border-radius: 40%;
+  background-size: cover;
+  cursor: pointer;
+  background-color: transparent;
+}
+
+.button-change-theme_light {
+  background-image: url("./templates/dark_mode.png");
+}
+
+.button-change-theme_dark {
+  background-image: url("./templates/light_mode.png");
+}
