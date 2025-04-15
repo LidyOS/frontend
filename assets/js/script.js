@@ -74,6 +74,12 @@ function changeTheme() {
   // })  
   buttonChangeTheme.classList.toggle("button-change-theme_light");
   buttonChangeTheme.classList.toggle("button-change-theme_dark");
+
+  if (bodyt.classList.contains("body_theme_dark")) {
+    localStorage.setItem("cur_theme", "dark");
+  } else if (bodyt.classList.contains("body_theme_light")) {
+    localStorage.setItem("cur_theme", "light");
+  }
 }
 
 
@@ -285,6 +291,10 @@ document.addEventListener("DOMContentLoaded", function() {
   const timeBeforeShow = 10 * 1000;
   let show = false;
 
+  const savedTheme = localStorage.getItem("cur_theme");
+  if (savedTheme === "dark") {
+    changeTheme();
+  }
   function showMessage() {
     if (!localStorage.getItem("show")) {
       popup.classList.add("popup_opened");
